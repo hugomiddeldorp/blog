@@ -1,4 +1,4 @@
 baseURL = 'https://hugomiddeldorp.github.io/blog/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'en-uk'
+title = 'Hugo Learns CS'
 theme = "mini"
