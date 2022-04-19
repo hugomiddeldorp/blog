@@ -6,7 +6,17 @@
     <description>Recent content on Hugo Learns CS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 04 Apr 2022 10:30:32 +1200</lastBuildDate><atom:link href="https://hugomiddeldorp.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 10:00:04 +1200</lastBuildDate><atom:link href="https://hugomiddeldorp.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comments</title>
+      <link>https://hugomiddeldorp.github.io/blog/posts/comments/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:04 +1200</pubDate>
+      
+      <guid>https://hugomiddeldorp.github.io/blog/posts/comments/</guid>
+      <description>I&amp;rsquo;ve been programming since I was quite young. I&amp;rsquo;ve always been quite lazy, so it makes sense that I took interest in learning how to make a computer do work for me. Now that I&amp;rsquo;m writing code for others to see, it becomes important for me to write it in a way that&amp;rsquo;s not only functional, but also readable.
+Before, if I was writing a program for anything, I would try to get everything out as soon as possible.</description>
+    </item>
+    
     <item>
       <title>init</title>
       <link>https://hugomiddeldorp.github.io/blog/posts/first-post/</link>
