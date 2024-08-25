@@ -1,0 +1,3 @@
+<p class="first-letter:float-left first-letter:mr-2 first-letter:text-8xl mt-8">
+  {{ .Inner | replaceRE "^\\s*<p>" "" | replaceRE "</p>\\s*$" "" | markdownify }}
+</p>

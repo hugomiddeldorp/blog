@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo Middeldorp Blog</title>
+    <link>https://www.hugomiddeldorp.com/posts/</link>
+    <description>Recent content in Posts on Hugo Middeldorp Blog</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.hugomiddeldorp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do what is difficult</title>
+      <link>https://www.hugomiddeldorp.com/posts/do-what-is-difficult/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.hugomiddeldorp.com/posts/do-what-is-difficult/</guid>
+      <description>Difficulty used to be a fact of life, now it&amp;rsquo;s a choice.</description>
+    </item>
+  </channel>
+</rss>
