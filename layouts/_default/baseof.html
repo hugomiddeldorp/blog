@@ -8,6 +8,7 @@
 
         <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" />
         <link rel="shortcut icon" href="{{ $logo.Permalink }}" type="image/x-icon">
+        <link rel="alternate" href="{{ .Site.BaseURL }}/index.xml" title="{{ .Site.Title }} RSS" type="application/rss+xml">
         <title>
             {{ block "title" . }}
             {{ .Site.Title }}
