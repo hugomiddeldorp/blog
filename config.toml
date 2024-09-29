@@ -1,3 +1,6 @@
 baseURL = 'https://hugomiddeldorp.com/'
 languageCode = 'en-uk'
 title = 'Hugo Middeldorp Blog'
+
+[Author]
+    name = "Hugo Middeldorp"
