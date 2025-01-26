@@ -35,3 +35,7 @@ ul {
 article a {
     @apply text-sky-600;
 }
+
+hr {
+    @apply my-4;
+}
