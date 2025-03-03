@@ -34,12 +34,12 @@ appreciate that some percentage of the population would love nothing more in the
 world than to be an amazing musician, composer or performer (I used to be one
 such person).
 
-In my experience, finding a good music education is difficult. Not for the lack
+In my experience, finding good music learning material is difficult. Not for the lack
 of resources (we have more of those than we could ever wish for), but for the
 lack of clear pedagogical methods. Becoming a great musician is difficult enough
 to do, if one also has to find their own educational resources, and make their
 own curriculum, a lot of energy and effort are diverted from learning an
-instruments.
+instrument.
 
 This is sad because it means that somewhere, there is someone willing to put in
 the work who doesn't have the correct resources. What a waste.
