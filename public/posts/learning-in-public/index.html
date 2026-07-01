@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        
+
+        <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/index.css" />
+        <link rel="shortcut icon" href="http://localhost:1313/images/logo.svg" type="image/x-icon">
+        <link rel="alternate" href="http://localhost:1313/index.xml" title="Hugo Middeldorp Blog RSS" type="application/rss+xml">
+        <title>
+            
+            Hugo Middeldorp Blog
+            
+        </title>
+    </head>
+    <body class="bg-stone-100 max-w-3xl mx-auto font-serif text-xl text-slate-900 mb-8">
+        
+<nav class="flex justify-center items-center py-4 font-sans text-base">
+  <a href="/posts" class="mr-8">Posts</a>
+  <a href="/" class="mr-8"><img src="http://localhost:1313/images/logo.svg" class="w-8" alt="Logo"></a>
+  <a href="/about" class="">About</a>
+</nav>
+
+        
+<section class="max-w-3xl mx-auto">
+    <h1 class="text-5xl font-display text-center md:text-left mb-2">Learning in public</h1>
+    <div class="text-sm text-gray-500 font-sans text-center md:text-left">
+        <span>Wed Jul 1, 2026 • 5 min read</span>
+    </div>
+    
+      <img class="mt-6 mb-8" src="http://localhost:1313/posts/learning-in-public/img/header.jpg">
+    
+    <div class="max-w-xl mx-auto text-xl leading-relaxed px-6 md:px-0">
+        <article>
+            <p class="first-letter:float-left first-letter:mr-2 first-letter:text-8xl mt-8">
+  I started my career in software development in the world of medical devices.
+From a piano teacher who wanted to change careers to have a positive impact in
+the world, I couldn&rsquo;t have gotten luckier. Working in a startup, especially a
+medical device startup, I ended up doing a lot more than my title described. On
+top of learning about software development, I also got to learn about quality
+management systems, non-conformances, CAPAs, audits, data privacy, information
+security management, etc. In terms of software development though, I feel a bit
+stunted, and I&rsquo;m ready for a new challenge.
+</p>
+
+<p>As I&rsquo;ve been applying to jobs, I&rsquo;ve noticed a big gap between my experience on
+paper, and my experience on the tools. I realised that in the world of Python
+developers, there are: AI developers who have PhDs in machine learning,
+scientific programmers with at least a master in biochemical engineering (or
+some other &ldquo;real&rdquo; engineering), or back-end programmers with at least five years
+of experience. None of these describe me, so I need to get closer to one of
+those descriptions if I want a job!</p>
+<p>I used to just think of myself as a software developer, but what I&rsquo;ve been
+learning while looking at jobs is that the position I held was unlike anything
+else in the market. In hindsight, thinking there would be a perfect mapping is
+naïve. Anyhow, more tertiary education is out of the question at the
+moment, therefore, I need to aim towards back-end development.</p>
+<p>In my first and only interview so far, I was tasked with designing an audit log
+system. It was more complicated than I had originally anticipated (partially
+from me overcomplicating the design) and the discussion with the interviewers
+highlighted some clear gaps in my knowledge and practice.</p>
+<p>I&rsquo;m a big fan of the idea of learning in public but I&rsquo;ve always found it
+difficult to do. What is the point of me recycling knowledge that already exists
+in a better form? I&rsquo;m not adding anything to the conversation. What I can
+contribute is my experience and my recommendations. In an age where AI has
+become a thinking and learning companion, I think it&rsquo;s necessary to get back to
+real human recommendations from people we can identify with.</p>
+<p>Below is a list of resources I found useful for learning. I hope you get some
+use out of them too.</p>
+<p><a href="https://roadmap.sh/backend">Roadmap</a>: This was a useful starting point to figure out what conceptual
+knowledge gaps I had. I&rsquo;m pretty sure this is AI generated, but it&rsquo;s a good
+enough start.</p>
+<p>When I realised that I didn&rsquo;t know as much about PostgreSQL as I originally
+thought, I went deep on SQL, database design, and DBMS internals.</p>
+<p><a href="https://cs50.harvard.edu/sql/">This course</a> is a great little primer on SQL with some fun exercises. I
+had never actually studied SQL and only gathered information here and there so
+it was nice to have it all in one place where I could also practice. Note: I
+haven&rsquo;t finished the entire course yet.</p>
+<p>SQLite has <a href="https://sqlite.org/arch.html">great documentation</a> about its architecture and how it differs from
+PostgreSQL. There is also <a href="https://www.interdb.jp/pg/">this book</a> about the internals of PostgreSQL. I&rsquo;m not
+super interested in understanding the deep inner-workings of these DBMS but
+having an understanding of pages, how indexes work, or how queries are computed
+is useful knowledge to help make sense of some of the prescriptions you will
+hear for designing and optimising data storage and querying.</p>
+<p>In terms of query optimisation and indexing, there is <a href="https://use-the-index-luke.com/">this website</a>. The default
+indexing strategy is a B-tree (balanced tree), the theory of which you can learn
+in <a href="https://www-cs-faculty.stanford.edu/~knuth/taocp.html">Knuth&rsquo;s TAOCP Vol.3</a>, but for other indexing strategies, there is a short and
+informative video by HelloInterview <a href="https://www.youtube.com/watch?v=BHCSL_ZifI0">here</a>. Sharding and partitioning are also concepts
+to quickly look into, but otherwise the basics of query optimisation just seem
+to be common sense (e.g., only select what you require).</p>
+<p>I also learnt about different communication protocols; turns out HTTP is not the
+be-all and end-all of application layer communication protocols! Two protocols I didn&rsquo;t know about
+before were <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">WebSockets</a> (which enable two-way communication between server and
+client) and <a href="https://www.youtube.com/watch?v=hVrwuMnCtok">gRPC</a> (which provides a standardised format for calling functions
+from other microservices).</p>
+<p>Theoretical knowledge will unfortunately not be enough though. I need to show
+that I can apply the knowledge and use the technologies. This is the part that
+I&rsquo;m currently struggling with. Systems require things like Kafka, Redis, or
+Kubernetes because they have a certain scale. Companies need CI/CD pipelines
+because they have dozens of developers working on a project and need to deploy
+quickly. None of these constraints are present for personal projects, so I&rsquo;m
+struggling coming up with ideas of projects that are serious enough to warrant
+these technologies but no so big that I spend the next three months working on
+them. I&rsquo;ve considered contributing to open source (something I&rsquo;ve wanted to do
+for a while) but I&rsquo;m finding it difficult to find projects where I will be able
+to get experience in these technologies.</p>
+<p>If anyone has any corrections for my noob brain, suggestions for how to
+proceed, or is in the same boat and would like to bounce ideas, leave me a
+shout at my full name (url of this website) [at] gmail [dot] com. In the
+meantime I will keep learning and applying, and check back in when I have more
+recommendations.</p>
+<h2 id="header-image">Header Image</h2>
+<p><em>Boats at Berck-sur-Mer</em>, Édouard Manet (<a href="https://www.rawpixel.com/image/2909632">link</a>)</p>
+
+        </article>
+    </div>
+</section>
+
+    </body>
+</html>
